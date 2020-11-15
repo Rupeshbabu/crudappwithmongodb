@@ -1,0 +1,26 @@
+POST http://localhost:2000/api/user
+Content-Type: application/json
+
+{
+    "name":"Rupesh",
+    "email":"nrupesh08@gmail.com",
+    "mobile":7382426840,
+    "address":"Ongole",
+    "password":"123456"
+}
+###
+
+GET http://localhost:2000/api/users
+Content-Type: application/json
+
+###
+PUT http://localhost:2000/api/user/5fb00af4f3a3b01b103b3222
+Content-Type: : application/json
+
+{
+    "name": "Rupesh Babu N",
+    "email": "nrupesh08@gmail.com",
+    "mobile": 7382426840,
+    "address": "Vijayawada",
+    "password": "123456",
+}

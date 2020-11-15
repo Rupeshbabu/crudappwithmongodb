@@ -1,0 +1,10 @@
+DB Schema::
+    registration
+        name,email,mobile,password,address
+---------------------------------------------------------------
+
+APIs List::
+    create
+    read
+    update
+    delete
